@@ -5,7 +5,7 @@
   + [Lexical Elements](#lexical-elements)
   + [Data Types](#data-types)
   + [Magnitude Comparators](#magnitude-comparators)
-  + [Lexical Elements](#lexical-elements)
+  + 
   
 # Lexical Elements
 - Identifiers
@@ -73,7 +73,10 @@ endmodule
 - Verilog provides a mechanism, known as module instantiation, to perform this task.
 - This type of code is called Structural Description. 
 
-### 
+## Verilog Primitive
+
+Verilog primitive Verilog includes a set of predefinedprimitives that can be instantiated FYI as modules. These primitives correspond to simple gate-level function blocks, such as the and, or, and not cells.
+
 ```v
 module eq2
 (
