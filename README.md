@@ -1,11 +1,11 @@
 # DSD
 
 # Table of Contents
-**Unit 1**
-+ [Lexical Elements](lexical-elements)
-+ [Data Types](data-types)
-+ [Magnitude Comparators](magnitude-comparators)
-+ [Lexical Elements](lexical-elements)
+- **Unit 1**
+  + [Lexical Elements](#lexical-elements)
+  + [Data Types](#data-types)
+  + [Magnitude Comparators](#magnitude-comparators)
+  + [Lexical Elements](#lexical-elements)
   
 # Lexical Elements
 - Identifiers
