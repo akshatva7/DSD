@@ -71,12 +71,8 @@ endmodule
 - A digital system is frequently composed of several smaller subsystems.
 - This allows us to build a large system from simpler or predesigned components.
 - Verilog provides a mechanism, known as module instantiation, to perform this task.
-- This type of code is called Structural Description. 
-
-## Verilog Primitive
-
-Verilog primitive Verilog includes a set of predefinedprimitives that can be instantiated FYI as modules. These primitives correspond to simple gate-level function blocks, such as the and, or, and not cells.
-
+- This type of code is called Structural Description.
+  
 ```v
 module eq2
 (
@@ -96,4 +92,37 @@ assign aeqb = eO & el;
 endmodule 
 ```
 
-## Comments
+## Verilog Primitive
+
+Verilog primitive Verilog includes a set of predefined primitives that can be instantiated FYI as modules. These primitives correspond to simple gate-level function blocks, such as the and, or, and not cells.
+
+![Screenshot from 2023-09-13 09-02-53](https://github.com/akshatva7/DSD/assets/135726741/124214dd-c67f-4dcc-acff-14d78d99135a)
+
+This form of code is very tedious and can easily be replaced with simple bitwise logical  operators. In addition to the predefined primitives, we can also define customized primitives, known
+as user-defined primitives (UDPs).
+
+## Testbench
+After code is developed, it can be simulated in a host computer to verify the correctness of the circuit operation and can be synthesized to a physical device. Simulation is usually performed within the same HDL framework.
+
+## Operators
+
+![Screenshot from 2023-09-13 09-21-02](https://github.com/akshatva7/DSD/assets/135726741/f696d8e4-d0bb-4ae8-afce-066ac64a2c72)
+
+
+### Precedence
+
+![Screenshot from 2023-09-13 09-16-47](https://github.com/akshatva7/DSD/assets/135726741/03e53314-7960-4521-a35d-cf161958bb1a)
+
+### Relational Operators
+
+![Screenshot from 2023-09-13 09-39-29](https://github.com/akshatva7/DSD/assets/135726741/cd2aa07a-3903-480e-a122-74162a33cc69)
+
+### Bitwise and Logical Operators
+![Screenshot from 2023-09-13 09-41-24](https://github.com/akshatva7/DSD/assets/135726741/5142932f-a529-4ef6-87f1-a53e89e4c6c8)
+
+
+
+
+
+
+
